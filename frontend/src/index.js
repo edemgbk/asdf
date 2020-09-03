@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import awsconfig from "./aws-exports";
+import Amplify from "aws-amplify";
+Amplify.configure(awsconfig);
 ReactDOM.render(
   <React.StrictMode>
     <App />
