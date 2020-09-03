@@ -8,11 +8,12 @@
   "functionName": "reactamplifyauth1ada6151PreSignup",
   "resourceName": "reactamplifyauth1ada6151PreSignup",
   "parentStack": "auth",
-  "triggerEnvs": [],
+  "triggerEnvs": "[]",
   "triggerDir": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-category-auth/provider-utils/awscloudformation/utils/../triggers/PreSignup",
   "triggerTemplate": "PreSignup.json.ejs",
   "roleName": "reactamplifyauth1ada6151PreSignup",
   "skipEdit": true,
   "DOMAINWHITELIST": "gmail.com,hotmail.com,rocketmail.com",
-  "DOMAINBLACKLIST": ""
+  "DOMAINBLACKLIST": "",
+  "triggerEventPath": "PreSignup.event.json"
 }

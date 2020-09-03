@@ -94,7 +94,7 @@
             ]
         }
     ],
-    "hostedUIDomainName": "reactamplifyauth26d2b879-26d2b879",
+    "hostedUIDomainName": "reactamplifyauthee7704f4-ee7704f4",
     "authProvidersUserPool": [],
     "hostedUIProviderMeta": "[]",
     "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://www.youtube.com/\"],\"LogoutURLs\":[\"https://master.d3hcz947mft8bp.amplifyapp.com/\"]}"

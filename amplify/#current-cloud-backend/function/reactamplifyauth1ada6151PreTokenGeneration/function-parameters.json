@@ -7,9 +7,10 @@
   "functionName": "reactamplifyauth1ada6151PreTokenGeneration",
   "resourceName": "reactamplifyauth1ada6151PreTokenGeneration",
   "parentStack": "auth",
-  "triggerEnvs": [],
+  "triggerEnvs": "[]",
   "triggerDir": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-category-auth/provider-utils/awscloudformation/utils/../triggers/PreTokenGeneration",
   "triggerTemplate": "PreTokenGeneration.json.ejs",
   "roleName": "reactamplifyauth1ada6151PreTokenGeneration",
-  "skipEdit": true
+  "skipEdit": true,
+  "triggerEventPath": "PreTokenGeneration.event.json"
 }

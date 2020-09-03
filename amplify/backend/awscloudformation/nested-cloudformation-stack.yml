@@ -74,7 +74,6 @@
 				"TemplateURL": "https://s3.amazonaws.com/amplify-reactamplifyauth-dev-105026-deployment/amplify-cfn-templates/function/reactamplifyauth1ada6151CustomMessage-cloudformation-template.json",
 				"Parameters": {
 					"modules": "verification-link",
-					"resourceName": "reactamplifyauth1ada6151CustomMessage",
 					"REDIRECTURL": "http://localhost:3000/home/",
 					"EMAILSUBJECT": "Confirm Account ",
 					"EMAILMESSAGE": "kindly confirm your account",
@@ -88,7 +87,6 @@
 				"TemplateURL": "https://s3.amazonaws.com/amplify-reactamplifyauth-dev-105026-deployment/amplify-cfn-templates/function/reactamplifyauth1ada6151PostConfirmation-cloudformation-template.json",
 				"Parameters": {
 					"modules": "add-to-group",
-					"resourceName": "reactamplifyauth1ada6151PostConfirmation",
 					"GROUP": "",
 					"env": "dev"
 				}
@@ -100,7 +98,6 @@
 				"TemplateURL": "https://s3.amazonaws.com/amplify-reactamplifyauth-dev-105026-deployment/amplify-cfn-templates/function/reactamplifyauth1ada6151PreSignup-cloudformation-template.json",
 				"Parameters": {
 					"modules": "email-filter-blacklist,email-filter-whitelist",
-					"resourceName": "reactamplifyauth1ada6151PreSignup",
 					"DOMAINWHITELIST": "gmail.com,hotmail.com,rocketmail.com",
 					"DOMAINBLACKLIST": "",
 					"env": "dev"
@@ -113,7 +110,6 @@
 				"TemplateURL": "https://s3.amazonaws.com/amplify-reactamplifyauth-dev-105026-deployment/amplify-cfn-templates/function/reactamplifyauth1ada6151PreTokenGeneration-cloudformation-template.json",
 				"Parameters": {
 					"modules": "alter-claims",
-					"resourceName": "reactamplifyauth1ada6151PreTokenGeneration",
 					"env": "dev"
 				}
 			}
@@ -162,10 +158,6 @@
 					"useDefault": "defaultSocial",
 					"hostedUI": true,
 					"triggers": "{\"CustomMessage\":[\"verification-link\"],\"PostConfirmation\":[\"add-to-group\"],\"PreSignup\":[\"email-filter-blacklist\",\"email-filter-whitelist\"],\"PreTokenGeneration\":[\"alter-claims\"]}",
-					"hostedUIDomainName": "reactamplifyauth1ada6151-1ada6151",
-					"authProvidersUserPool": "",
-					"hostedUIProviderMeta": "[]",
-					"oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/home/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}",
 					"userPoolGroupList": "",
 					"verificationBucketName": "reactamplifyauth1ada6151verificationbucket",
 					"parentStack": {
@@ -173,6 +165,10 @@
 					},
 					"permissions": "{\"policyName\":\"AddToGroupCognito\",\"trigger\":\"PostConfirmation\",\"effect\":\"Allow\",\"actions\":[\"cognito-idp:AdminAddUserToGroup\",\"cognito-idp:GetGroup\",\"cognito-idp:CreateGroup\"],\"resource\":{\"paramType\":\"!GetAtt\",\"keys\":[\"UserPool\",\"Arn\"]}}",
 					"dependsOn": "[object Object],[object Object],[object Object],[object Object]",
+					"hostedUIDomainName": "reactamplifyauthee7704f4-ee7704f4",
+					"authProvidersUserPool": "",
+					"hostedUIProviderMeta": "[]",
+					"oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://www.youtube.com/\"],\"LogoutURLs\":[\"https://master.d3hcz947mft8bp.amplifyapp.com/\"]}",
 					"hostedUIProviderCreds": "[]",
 					"functionreactamplifyauth1ada6151CustomMessageArn": {
 						"Fn::GetAtt": [

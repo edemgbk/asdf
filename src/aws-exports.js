@@ -8,7 +8,7 @@ const awsmobile = {
     "aws_user_pools_id": "eu-west-1_RM3qhvTWW",
     "aws_user_pools_web_client_id": "6o3fgjk5n89uk9tpnkut5a47in",
     "oauth": {
-        "domain": "reactamplifyauth1ada6151-1ada6151-dev.auth.eu-west-1.amazoncognito.com",
+        "domain": "reactamplifyauthee7704f4-ee7704f4-dev.auth.eu-west-1.amazoncognito.com",
         "scope": [
             "phone",
             "email",
@@ -16,8 +16,8 @@ const awsmobile = {
             "profile",
             "aws.cognito.signin.user.admin"
         ],
-        "redirectSignIn": "http://localhost:3000/home/",
-        "redirectSignOut": "http://localhost:3000/",
+        "redirectSignIn": "https://www.youtube.com/",
+        "redirectSignOut": "https://master.d3hcz947mft8bp.amplifyapp.com/",
         "responseType": "code"
     },
     "federationTarget": "COGNITO_USER_POOLS"
