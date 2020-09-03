@@ -1,4 +1,1 @@
-{
-  "modules": "email-filter-blacklist,email-filter-whitelist",
-  "resourceName": "reactamplifyauth1ada6151PreSignup"
-}
+{"modules":"email-filter-blacklist,email-filter-whitelist"}

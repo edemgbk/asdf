@@ -7,12 +7,7 @@
   "functionName": "reactamplifyauth1ada6151CustomMessage",
   "resourceName": "reactamplifyauth1ada6151CustomMessage",
   "parentStack": "auth",
-  "triggerEnvs": [
-    {
-      "key": "RESOURCENAME",
-      "value": "resourceName"
-    }
-  ],
+  "triggerEnvs": "[{\"key\":\"RESOURCENAME\",\"value\":\"resourceName\"}]",
   "triggerDir": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-category-auth/provider-utils/awscloudformation/utils/../triggers/CustomMessage",
   "triggerTemplate": "CustomMessage.json.ejs",
   "roleName": "reactamplifyauth1ada6151CustomMessage",
@@ -20,5 +15,6 @@
   "REDIRECTURL": "http://localhost:3000/home/",
   "EMAILSUBJECT": "Confirm Account ",
   "EMAILMESSAGE": "kindly confirm your account",
-  "RESOURCENAME": "resourceName"
+  "RESOURCENAME": "resourceName",
+  "triggerEventPath": "CustomMessage.event.json"
 }

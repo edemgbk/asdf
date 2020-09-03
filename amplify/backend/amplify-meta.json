@@ -1,158 +1,163 @@
 {
-	"providers": {
-		"awscloudformation": {
-			"AuthRoleName": "amplify-reactamplifyauth-dev-105026-authRole",
-			"UnauthRoleArn": "arn:aws:iam::773448447528:role/amplify-reactamplifyauth-dev-105026-unauthRole",
-			"AuthRoleArn": "arn:aws:iam::773448447528:role/amplify-reactamplifyauth-dev-105026-authRole",
-			"Region": "eu-west-1",
-			"DeploymentBucketName": "amplify-reactamplifyauth-dev-105026-deployment",
-			"UnauthRoleName": "amplify-reactamplifyauth-dev-105026-unauthRole",
-			"StackName": "amplify-reactamplifyauth-dev-105026",
-			"StackId": "arn:aws:cloudformation:eu-west-1:773448447528:stack/amplify-reactamplifyauth-dev-105026/49643dd0-edd3-11ea-8b77-0a121e68abee",
-			"AmplifyAppId": "dtkgfkzltbbsi"
-		}
-	},
-	"function": {
-		"reactamplifyauth1ada6151CustomMessage": {
-			"build": true,
-			"providerPlugin": "awscloudformation",
-			"service": "Lambda",
-			"lastBuildTimeStamp": "2020-09-03T10:58:27.209Z",
-			"lastPackageTimeStamp": "2020-09-03T10:58:27.303Z",
-			"distZipFilename": "reactamplifyauth1ada6151CustomMessage-684b486457575a385a41-build.zip",
-			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplifyauth-dev-105026-deployment/amplify-cfn-templates/function/reactamplifyauth1ada6151CustomMessage-cloudformation-template.json",
-				"logicalId": "functionreactamplifyauth1ada6151CustomMessage"
-			},
-			"lastPushTimeStamp": "2020-09-03T11:02:51.464Z",
-			"output": {
-				"Region": "eu-west-1",
-				"Arn": "arn:aws:lambda:eu-west-1:773448447528:function:reactamplifyauth1ada6151CustomMessage-dev",
-				"Name": "reactamplifyauth1ada6151CustomMessage-dev",
-				"LambdaExecutionRole": "reactamplifyauth1ada6151CustomMessage-dev"
-			},
-			"lastPushDirHash": "q6jGpxK68A+NWVawVmS869RZ6Y4="
-		},
-		"reactamplifyauth1ada6151PostConfirmation": {
-			"build": true,
-			"providerPlugin": "awscloudformation",
-			"service": "Lambda",
-			"lastBuildTimeStamp": "2020-09-03T10:58:27.212Z",
-			"lastPackageTimeStamp": "2020-09-03T10:58:27.420Z",
-			"distZipFilename": "reactamplifyauth1ada6151PostConfirmation-46346661507862714235-build.zip",
-			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplifyauth-dev-105026-deployment/amplify-cfn-templates/function/reactamplifyauth1ada6151PostConfirmation-cloudformation-template.json",
-				"logicalId": "functionreactamplifyauth1ada6151PostConfirmation"
-			},
-			"lastPushTimeStamp": "2020-09-03T11:02:51.464Z",
-			"output": {
-				"Region": "eu-west-1",
-				"Arn": "arn:aws:lambda:eu-west-1:773448447528:function:reactamplifyauth1ada6151PostConfirmation-dev",
-				"Name": "reactamplifyauth1ada6151PostConfirmation-dev",
-				"LambdaExecutionRole": "reactamplifyauth1ada6151PostConfirmation-dev"
-			},
-			"lastPushDirHash": "yPj+yPHDXIvTHCC6yhO6wGKA4fs="
-		},
-		"reactamplifyauth1ada6151PreSignup": {
-			"build": true,
-			"providerPlugin": "awscloudformation",
-			"service": "Lambda",
-			"lastBuildTimeStamp": "2020-09-03T10:58:27.213Z",
-			"lastPackageTimeStamp": "2020-09-03T10:58:27.319Z",
-			"distZipFilename": "reactamplifyauth1ada6151PreSignup-75725761794f41367946-build.zip",
-			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplifyauth-dev-105026-deployment/amplify-cfn-templates/function/reactamplifyauth1ada6151PreSignup-cloudformation-template.json",
-				"logicalId": "functionreactamplifyauth1ada6151PreSignup"
-			},
-			"lastPushTimeStamp": "2020-09-03T11:02:51.464Z",
-			"output": {
-				"Region": "eu-west-1",
-				"Arn": "arn:aws:lambda:eu-west-1:773448447528:function:reactamplifyauth1ada6151PreSignup-dev",
-				"Name": "reactamplifyauth1ada6151PreSignup-dev",
-				"LambdaExecutionRole": "reactamplifyauth1ada6151PreSignup-dev"
-			},
-			"lastPushDirHash": "0zNKMFpmppgOCQCqn/UsqLHkN2A="
-		},
-		"reactamplifyauth1ada6151PreTokenGeneration": {
-			"build": true,
-			"providerPlugin": "awscloudformation",
-			"service": "Lambda",
-			"lastBuildTimeStamp": "2020-09-03T10:58:27.213Z",
-			"lastPackageTimeStamp": "2020-09-03T10:58:27.310Z",
-			"distZipFilename": "reactamplifyauth1ada6151PreTokenGeneration-38365a65435378733779-build.zip",
-			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplifyauth-dev-105026-deployment/amplify-cfn-templates/function/reactamplifyauth1ada6151PreTokenGeneration-cloudformation-template.json",
-				"logicalId": "functionreactamplifyauth1ada6151PreTokenGeneration"
-			},
-			"lastPushTimeStamp": "2020-09-03T11:02:51.464Z",
-			"output": {
-				"Region": "eu-west-1",
-				"Arn": "arn:aws:lambda:eu-west-1:773448447528:function:reactamplifyauth1ada6151PreTokenGeneration-dev",
-				"Name": "reactamplifyauth1ada6151PreTokenGeneration-dev",
-				"LambdaExecutionRole": "reactamplifyauth1ada6151PreTokenGeneration-dev"
-			},
-			"lastPushDirHash": "ryqSyWDjzjP01tmXkwm4+YgCT9s="
-		}
-	},
-	"auth": {
-		"reactamplifyauth1ada6151": {
-			"service": "Cognito",
-			"providerPlugin": "awscloudformation",
-			"dependsOn": [
-				{
-					"category": "function",
-					"resourceName": "reactamplifyauth1ada6151CustomMessage",
-					"triggerProvider": "Cognito",
-					"attributes": [
-						"Arn",
-						"Name"
-					]
-				},
-				{
-					"category": "function",
-					"resourceName": "reactamplifyauth1ada6151PostConfirmation",
-					"triggerProvider": "Cognito",
-					"attributes": [
-						"Arn",
-						"Name"
-					]
-				},
-				{
-					"category": "function",
-					"resourceName": "reactamplifyauth1ada6151PreSignup",
-					"triggerProvider": "Cognito",
-					"attributes": [
-						"Arn",
-						"Name"
-					]
-				},
-				{
-					"category": "function",
-					"resourceName": "reactamplifyauth1ada6151PreTokenGeneration",
-					"triggerProvider": "Cognito",
-					"attributes": [
-						"Arn",
-						"Name"
-					]
-				}
-			],
-			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplifyauth-dev-105026-deployment/amplify-cfn-templates/auth/reactamplifyauth1ada6151-cloudformation-template.yml",
-				"logicalId": "authreactamplifyauth1ada6151"
-			},
-			"lastPushTimeStamp": "2020-09-03T11:02:51.464Z",
-			"output": {
-				"AppClientSecret": "hc1glfhhg5tt5ktsabfkl5u03222p492k3lfdiph4aksrbpi4gh",
-				"UserPoolId": "eu-west-1_RM3qhvTWW",
-				"AppClientIDWeb": "6o3fgjk5n89uk9tpnkut5a47in",
-				"AppClientID": "268hnasjmp95h1c2bgqd0jske2",
-				"HostedUIDomain": "reactamplifyauth1ada6151-1ada6151-dev",
-				"IdentityPoolId": "eu-west-1:52596be2-c5b7-4987-9f2c-d0a5e0f23aa1",
-				"IdentityPoolName": "reactamplifyauth1ada6151_identitypool_1ada6151__dev",
-				"OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/home/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}",
-				"UserPoolName": "reactamplifyauth1ada6151_userpool_1ada6151"
-			},
-			"lastPushDirHash": "zrJfm8d9ULkaWQDKlQ7y8Be6Yh8="
-		}
-	}
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-reactamplifyauth-dev-105026-authRole",
+            "UnauthRoleArn": "arn:aws:iam::773448447528:role/amplify-reactamplifyauth-dev-105026-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::773448447528:role/amplify-reactamplifyauth-dev-105026-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-reactamplifyauth-dev-105026-deployment",
+            "UnauthRoleName": "amplify-reactamplifyauth-dev-105026-unauthRole",
+            "StackName": "amplify-reactamplifyauth-dev-105026",
+            "StackId": "arn:aws:cloudformation:eu-west-1:773448447528:stack/amplify-reactamplifyauth-dev-105026/49643dd0-edd3-11ea-8b77-0a121e68abee",
+            "AmplifyAppId": "dtkgfkzltbbsi"
+        },
+        "categories": {
+            "function": {
+                "reactamplifyauth1ada6151CustomMessage": {
+                    "REDIRECTURL": "http://localhost:3000/home/",
+                    "EMAILSUBJECT": "Confirm Account ",
+                    "EMAILMESSAGE": "kindly confirm your account"
+                },
+                "reactamplifyauth1ada6151PostConfirmation": {
+                    "GROUP": ""
+                },
+                "reactamplifyauth1ada6151PreSignup": {
+                    "DOMAINWHITELIST": "gmail.com,hotmail.com,rocketmail.com",
+                    "DOMAINBLACKLIST": ""
+                },
+                "reactamplifyauth1ada6151PreTokenGeneration": {}
+            },
+            "auth": {
+                "reactamplifyauth1ada6151": {
+                    "hostedUIProviderCreds": "[]"
+                }
+            }
+        }
+    },
+    "function": {
+        "reactamplifyauth1ada6151CustomMessage": {
+            "build": true,
+            "providerPlugin": "awscloudformation",
+            "service": "Lambda",
+            "output": {
+                "Region": "eu-west-1",
+                "Arn": "arn:aws:lambda:eu-west-1:773448447528:function:reactamplifyauth1ada6151CustomMessage-dev",
+                "Name": "reactamplifyauth1ada6151CustomMessage-dev",
+                "LambdaExecutionRole": "reactamplifyauth1ada6151CustomMessage-dev"
+            },
+            "lastPushTimeStamp": "2020-09-03T16:28:01.356Z",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplifyauth-dev-105026-deployment/amplify-cfn-templates/function/reactamplifyauth1ada6151CustomMessage-cloudformation-template.json",
+                "logicalId": "functionreactamplifyauth1ada6151CustomMessage"
+            }
+        },
+        "reactamplifyauth1ada6151PostConfirmation": {
+            "build": true,
+            "providerPlugin": "awscloudformation",
+            "service": "Lambda",
+            "output": {
+                "Region": "eu-west-1",
+                "Arn": "arn:aws:lambda:eu-west-1:773448447528:function:reactamplifyauth1ada6151PostConfirmation-dev",
+                "Name": "reactamplifyauth1ada6151PostConfirmation-dev",
+                "LambdaExecutionRole": "reactamplifyauth1ada6151PostConfirmation-dev"
+            },
+            "lastPushTimeStamp": "2020-09-03T16:28:01.357Z",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplifyauth-dev-105026-deployment/amplify-cfn-templates/function/reactamplifyauth1ada6151PostConfirmation-cloudformation-template.json",
+                "logicalId": "functionreactamplifyauth1ada6151PostConfirmation"
+            }
+        },
+        "reactamplifyauth1ada6151PreSignup": {
+            "build": true,
+            "providerPlugin": "awscloudformation",
+            "service": "Lambda",
+            "output": {
+                "Region": "eu-west-1",
+                "Arn": "arn:aws:lambda:eu-west-1:773448447528:function:reactamplifyauth1ada6151PreSignup-dev",
+                "Name": "reactamplifyauth1ada6151PreSignup-dev",
+                "LambdaExecutionRole": "reactamplifyauth1ada6151PreSignup-dev"
+            },
+            "lastPushTimeStamp": "2020-09-03T16:28:01.358Z",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplifyauth-dev-105026-deployment/amplify-cfn-templates/function/reactamplifyauth1ada6151PreSignup-cloudformation-template.json",
+                "logicalId": "functionreactamplifyauth1ada6151PreSignup"
+            }
+        },
+        "reactamplifyauth1ada6151PreTokenGeneration": {
+            "build": true,
+            "providerPlugin": "awscloudformation",
+            "service": "Lambda",
+            "output": {
+                "Region": "eu-west-1",
+                "Arn": "arn:aws:lambda:eu-west-1:773448447528:function:reactamplifyauth1ada6151PreTokenGeneration-dev",
+                "Name": "reactamplifyauth1ada6151PreTokenGeneration-dev",
+                "LambdaExecutionRole": "reactamplifyauth1ada6151PreTokenGeneration-dev"
+            },
+            "lastPushTimeStamp": "2020-09-03T16:28:01.358Z",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplifyauth-dev-105026-deployment/amplify-cfn-templates/function/reactamplifyauth1ada6151PreTokenGeneration-cloudformation-template.json",
+                "logicalId": "functionreactamplifyauth1ada6151PreTokenGeneration"
+            }
+        }
+    },
+    "auth": {
+        "reactamplifyauth1ada6151": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": [
+                {
+                    "category": "function",
+                    "resourceName": "reactamplifyauth1ada6151CustomMessage",
+                    "triggerProvider": "Cognito",
+                    "attributes": [
+                        "Arn",
+                        "Name"
+                    ]
+                },
+                {
+                    "category": "function",
+                    "resourceName": "reactamplifyauth1ada6151PostConfirmation",
+                    "triggerProvider": "Cognito",
+                    "attributes": [
+                        "Arn",
+                        "Name"
+                    ]
+                },
+                {
+                    "category": "function",
+                    "resourceName": "reactamplifyauth1ada6151PreSignup",
+                    "triggerProvider": "Cognito",
+                    "attributes": [
+                        "Arn",
+                        "Name"
+                    ]
+                },
+                {
+                    "category": "function",
+                    "resourceName": "reactamplifyauth1ada6151PreTokenGeneration",
+                    "triggerProvider": "Cognito",
+                    "attributes": [
+                        "Arn",
+                        "Name"
+                    ]
+                }
+            ],
+            "output": {
+                "AppClientSecret": "hc1glfhhg5tt5ktsabfkl5u03222p492k3lfdiph4aksrbpi4gh",
+                "UserPoolId": "eu-west-1_RM3qhvTWW",
+                "AppClientIDWeb": "6o3fgjk5n89uk9tpnkut5a47in",
+                "AppClientID": "268hnasjmp95h1c2bgqd0jske2",
+                "HostedUIDomain": "reactamplifyauth1ada6151-1ada6151-dev",
+                "IdentityPoolId": "eu-west-1:52596be2-c5b7-4987-9f2c-d0a5e0f23aa1",
+                "IdentityPoolName": "reactamplifyauth1ada6151_identitypool_1ada6151__dev",
+                "OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/home/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}",
+                "UserPoolName": "reactamplifyauth1ada6151_userpool_1ada6151"
+            },
+            "lastPushTimeStamp": "2020-09-03T16:32:21.859Z",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplifyauth-dev-105026-deployment/amplify-cfn-templates/auth/reactamplifyauth1ada6151-cloudformation-template.yml",
+                "logicalId": "authreactamplifyauth1ada6151"
+            }
+        }
+    }
 }
