@@ -7,10 +7,10 @@ frontend:
     # IMPORTANT - Please verify your build commands
     build:
       commands: 
-        - npm run-script build
+        - 
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: /build
+    baseDirectory: 
     files:
       - '**/*'
   cache:
